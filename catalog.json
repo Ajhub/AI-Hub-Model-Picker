@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Whisper-Tiny",
+    "category": "Audio",
+    "description": "Compact automatic speech recognition model that transcribes spoken audio to text in many languages. Best when you need fast, low-power transcription of calls, voice notes or meetings.",
+    "latency_ms": 35.0,
+    "power_note": "Very low power; suited to always-on transcription",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Whisper-Base",
+    "category": "Audio",
+    "description": "Mid-size speech-to-text model with better accuracy than Whisper-Tiny on noisy audio. Good for transcribing customer support calls and interviews on-device.",
+    "latency_ms": 62.0,
+    "power_note": "Low power; comfortable on the NPU",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Whisper-Small",
+    "category": "Audio",
+    "description": "Higher-accuracy speech recognition and translation model for multilingual transcription. Use it when transcript quality matters more than raw speed.",
+    "latency_ms": 140.0,
+    "power_note": "Moderate power; still practical on-device",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Wav2Vec2",
+    "category": "Audio",
+    "description": "Self-supervised speech recognition model that converts English audio into text. A lightweight alternative for voice commands and dictation.",
+    "latency_ms": 48.0,
+    "power_note": "Low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "HuggingFace-WavLM-Base-Plus",
+    "category": "Audio",
+    "description": "Speech representation model useful for speaker identification, emotion cues and downstream audio tasks. Good for analysing who is speaking and how.",
+    "latency_ms": 55.0,
+    "power_note": "Low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Yamnet",
+    "category": "Audio",
+    "description": "Audio event classifier that recognises hundreds of everyday sound classes such as alarms, speech, music and glass breaking. Useful for sound-aware and safety applications.",
+    "latency_ms": 6.0,
+    "power_note": "Very low power; always-on friendly",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MeloTTS-EN",
+    "category": "Audio",
+    "description": "Text-to-speech model that turns written English into natural-sounding voice audio. Good for offline voice assistants and accessibility read-aloud features.",
+    "latency_ms": 90.0,
+    "power_note": "Moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MobileNet-v2",
+    "category": "Vision",
+    "description": "Lightweight image classification network that labels what is in a photo. Designed for fast, low-power inference on phones and laptops.",
+    "latency_ms": 1.1,
+    "power_note": "Extremely low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MobileNet-v3-Large",
+    "category": "Vision",
+    "description": "Efficient image classifier with better accuracy than MobileNet-v2 at similar cost. A solid default for on-device image recognition.",
+    "latency_ms": 1.4,
+    "power_note": "Extremely low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "ResNet50",
+    "category": "Vision",
+    "description": "Widely used deep image classification backbone with strong accuracy. Use it when you want a reliable classifier and can afford a bit more compute.",
+    "latency_ms": 2.6,
+    "power_note": "Low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "EfficientNet-B0",
+    "category": "Vision",
+    "description": "Small, accurate image classification model that balances size and accuracy well. Good for classifying products, plants or documents on-device.",
+    "latency_ms": 1.8,
+    "power_note": "Very low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "ConvNext-Tiny",
+    "category": "Vision",
+    "description": "Modern convolutional image classifier competitive with transformer models. Suitable for higher-accuracy recognition on Snapdragon devices.",
+    "latency_ms": 3.2,
+    "power_note": "Low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "YOLOv8-Detection",
+    "category": "Vision",
+    "description": "Real-time object detector that finds and boxes multiple objects in images and video. Ideal for camera-based monitoring, counting and inspection.",
+    "latency_ms": 6.5,
+    "power_note": "Low power; real-time capable",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "YOLOv7",
+    "category": "Vision",
+    "description": "Fast object detection model for locating people, vehicles and everyday objects in video frames. Good for surveillance-style and robotics use cases.",
+    "latency_ms": 8.0,
+    "power_note": "Low to moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "DETR-ResNet50",
+    "category": "Vision",
+    "description": "Transformer-based object detector that predicts objects without hand-tuned anchor boxes. Useful when you want a cleaner detection pipeline.",
+    "latency_ms": 14.0,
+    "power_note": "Moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MediaPipe-Face-Detection",
+    "category": "Vision",
+    "description": "Very fast face detector that locates faces and key landmarks in camera frames. Good for video calls, attendance and privacy blurring.",
+    "latency_ms": 1.0,
+    "power_note": "Extremely low power; always-on friendly",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MediaPipe-Hand-Detection",
+    "category": "Vision",
+    "description": "Detects hands and finger landmarks in real time from a webcam. Great for gesture control and sign-language style interfaces.",
+    "latency_ms": 1.7,
+    "power_note": "Very low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MediaPipe-Pose-Estimation",
+    "category": "Vision",
+    "description": "Estimates human body keypoints such as shoulders, elbows and knees from video. Ideal for posture checking, exercise form and fall detection.",
+    "latency_ms": 2.4,
+    "power_note": "Very low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "OpenPose",
+    "category": "Vision",
+    "description": "Multi-person pose estimation model that finds body keypoints for several people at once. Useful for fitness, sports analysis and activity recognition.",
+    "latency_ms": 9.5,
+    "power_note": "Moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "HRNetPose",
+    "category": "Vision",
+    "description": "High-resolution human pose estimation network with precise keypoint localisation. Use it when accuracy of body landmarks matters.",
+    "latency_ms": 7.0,
+    "power_note": "Low to moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "DeepLabV3-ResNet50",
+    "category": "Vision",
+    "description": "Semantic segmentation model that labels every pixel of an image by class, such as road, person or sky. Useful for scene understanding and background removal.",
+    "latency_ms": 18.0,
+    "power_note": "Moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "MediaPipe-Selfie-Segmentation",
+    "category": "Vision",
+    "description": "Separates a person from the background in real time. Well suited to virtual backgrounds and video conferencing effects.",
+    "latency_ms": 1.5,
+    "power_note": "Very low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Segment-Anything-Model",
+    "category": "Vision",
+    "description": "Promptable segmentation model that can cut out almost any object from an image given a point or box. Useful for photo editing and annotation tools.",
+    "latency_ms": 120.0,
+    "power_note": "High power; use for on-demand tasks",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "FastSam-S",
+    "category": "Vision",
+    "description": "Lightweight, faster alternative to Segment Anything for cutting out objects in images. Good for near-real-time interactive segmentation.",
+    "latency_ms": 22.0,
+    "power_note": "Moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Depth-Anything",
+    "category": "Vision",
+    "description": "Monocular depth estimation model that predicts how far away things are from a single camera image. Useful for AR, robotics and 3D effects.",
+    "latency_ms": 30.0,
+    "power_note": "Moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Real-ESRGAN-x4plus",
+    "category": "Vision",
+    "description": "Image super-resolution model that upscales and restores low-quality photos by four times. Good for enhancing old or compressed images.",
+    "latency_ms": 210.0,
+    "power_note": "High power; batch or on-demand use",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "EasyOCR",
+    "category": "Vision",
+    "description": "Optical character recognition pipeline that detects and reads printed and handwritten text in images and scanned documents. Ideal for receipt, ID card and form digitisation.",
+    "latency_ms": 45.0,
+    "power_note": "Low to moderate power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Llama-v3.2-1B-Instruct",
+    "category": "Text",
+    "description": "Small instruction-tuned language model for chat, summarisation and drafting that runs fully on-device. Great for private assistants where speed and low memory matter.",
+    "latency_ms": 25.0,
+    "power_note": "Low to moderate power per token",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Llama-v3.2-3B-Instruct",
+    "category": "Text",
+    "description": "Mid-size instruction-tuned language model with stronger reasoning and writing than the 1B version. Good for on-device summarisation, Q&A and rewriting.",
+    "latency_ms": 45.0,
+    "power_note": "Moderate power per token",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Llama-v3.1-8B-Instruct",
+    "category": "Text",
+    "description": "Larger instruction-tuned language model for higher-quality chat, analysis and code help. Needs more memory but gives noticeably better answers.",
+    "latency_ms": 90.0,
+    "power_note": "High power per token",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Phi-3.5-mini-instruct",
+    "category": "Text",
+    "description": "Compact reasoning-focused language model that punches above its size. Suited to on-device assistants, structured extraction and coding help.",
+    "latency_ms": 40.0,
+    "power_note": "Moderate power per token",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Qwen2-7B-Instruct",
+    "category": "Text",
+    "description": "Capable multilingual instruction model for chat, translation and summarisation. Useful when you need strong non-English support on-device.",
+    "latency_ms": 85.0,
+    "power_note": "High power per token",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Nomic-Embed-Text",
+    "category": "Text",
+    "description": "Text embedding model that converts sentences and documents into vectors for semantic search and retrieval. Ideal for building private on-device search and RAG.",
+    "latency_ms": 8.0,
+    "power_note": "Very low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "DistilBERT-Base-Uncased",
+    "category": "Text",
+    "description": "Compact BERT-style language understanding model for classifying text, detecting sentiment and tagging content. Good for fast on-device text classification.",
+    "latency_ms": 5.0,
+    "power_note": "Very low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "OpenAI-Clip",
+    "category": "Multimodal",
+    "description": "Joins images and text in one embedding space so you can search photos with natural language or classify images by description. Great for smart photo and screenshot search.",
+    "latency_ms": 12.0,
+    "power_note": "Low power",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "Stable-Diffusion-v1.5",
+    "category": "Multimodal",
+    "description": "Text-to-image generative model that creates pictures from written prompts. Runs on-device for private, offline image generation.",
+    "latency_ms": 4500.0,
+    "power_note": "High power; long-running generative workload",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  },
+  {
+    "name": "ControlNet",
+    "category": "Multimodal",
+    "description": "Adds structural control such as edges or pose to image generation so outputs follow a sketch or layout. Useful for guided design and creative tools.",
+    "latency_ms": 5200.0,
+    "power_note": "High power; long-running generative workload",
+    "note": "Example figures - to be replaced with real AI Hub Workbench profiling results."
+  }
+]
